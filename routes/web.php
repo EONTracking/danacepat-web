@@ -15,4 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+//Route::get('/',array('uses'=>'crocodicstudio\crudbooster\controllersAdminController@getIndex'));
+
+
+
 
